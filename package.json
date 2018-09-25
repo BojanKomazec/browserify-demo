@@ -4,7 +4,8 @@
   "description": "Simple project which demonstrates use of Browserify.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browserify": "browserify",
+    "bundle": "browserify main.js -o bundle.js"
   },
   "repository": {
     "type": "git",
@@ -25,9 +26,5 @@
   },
   "dependencies": {
     "uniq": "^1.0.1"
-  },
-  "scripts" : {
-      "browserify" : "browserify",
-      "bundle" : "browserify main.js -o bundle.js"
   }
 }

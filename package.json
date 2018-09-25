@@ -1,0 +1,33 @@
+{
+  "name": "browserify-demo",
+  "version": "1.0.0",
+  "description": "Simple project which demonstrates use of Browserify.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BojanKomazec/browserify-demo.git"
+  },
+  "keywords": [
+    "Browserify",
+    "Demo"
+  ],
+  "author": "Bojan Komazec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BojanKomazec/browserify-demo/issues"
+  },
+  "homepage": "https://github.com/BojanKomazec/browserify-demo#readme",
+  "devDependencies": {
+    "browserify": "^16.2.2"
+  },
+  "dependencies": {
+    "uniq": "^1.0.1"
+  },
+  "scripts" : {
+      "browserify" : "browserify",
+      "bundle" : "browserify main.js -o bundle.js"
+  }
+}
